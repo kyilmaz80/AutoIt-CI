@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Visual Studio 2015
+install:
+- ps: >-
+    $installer = "$PSScriptRoot\setup.exe"
+
+    (New-Object System.Net.WebClient).DownloadFile("https://cdn.turbo.run/autoit/autoit-v3-setup.exe", $installer)
+
+    Start-Process -FilePath $installer -ArgumentList "/S"
+build_script:
+- cmd: echo %HOMEDRIVE%
