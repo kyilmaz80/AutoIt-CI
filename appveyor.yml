@@ -6,6 +6,6 @@ install:
 
     (New-Object System.Net.WebClient).DownloadFile("https://cdn.turbo.run/autoit/autoit-v3-setup.exe", $installer)
 
-    Start-Process -FilePath $installer -ArgumentList "/S"
+    Start-Process -FilePath $installer -ArgumentList "/S" -NoNewWindow -Wait
 build_script:
 - cmd: echo %HOMEDRIVE%
