@@ -4,4 +4,4 @@
 ConsoleWrite("Compiled Program" & @LF)
 
 ; test status code
-Exit 0
+Exit 1
