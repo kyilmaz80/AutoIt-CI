@@ -8,4 +8,7 @@ install:
 
     Start-Process -FilePath $installer -ArgumentList "/S" -NoNewWindow -Wait
 build_script:
-- cmd: echo %HOMEDRIVE%
+- cmd: >-
+    "C:\Program Files (x86)\AutoIt3\SciTE\..\AutoIt3.exe" "C:\Program Files (x86)\AutoIt3\SciTE\AutoIt3Wrapper\AutoIt3Wrapper.au3" /NoStatus /prod /in "%CD%\program.au3"
+    
+    program.exe
