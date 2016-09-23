@@ -1,7 +1,7 @@
 #AutoIt3Wrapper_Change2CUI=y
 
 ; do things
-ConsoleWrite("Compiled")
+ConsoleWrite("Compiled Program")
 
 ; test status code
 Exit 0
