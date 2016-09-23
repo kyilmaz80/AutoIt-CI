@@ -1,2 +1,2 @@
 # AutoIt-CI
-Testing CIs that work well with AutoIt.
+Testing CIs that work well with AutoIt
