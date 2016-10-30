@@ -1,6 +1,6 @@
 # AutoIt-CI
 
-[![Build status](https://ci.appveyor.com/api/projects/status/hijuxbk46prc45t5?svg=true)](https://ci.appveyor.com/project/minxomat/autoit-ci)
+[![Build status](https://ci.appveyor.com/api/projects/status/hijuxbk46prc45t5?svg=true)](https://ci.appveyor.com/project/turbo/autoit-ci)
 
 How to setup AppVeyor to test AutoIt projects:
 
