@@ -4,7 +4,7 @@ install:
 - ps: >-
     $installer = "$PSScriptRoot\setup.exe"
 
-    (New-Object System.Net.WebClient).DownloadFile("https://github.com/minxomat/AutoIt-CI/releases/download/1/autoit-v3-setup.exe", $installer)
+    (New-Object System.Net.WebClient).DownloadFile("https://github.com/turbo/AutoIt-CI/releases/download/1/autoit-v3-setup.exe", $installer)
 
     Start-Process -FilePath $installer -ArgumentList "/S" -NoNewWindow -Wait
 build_script:
